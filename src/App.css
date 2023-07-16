@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+
+  :root{
+    --primary: #00A97F;
+    --light:rgba(133,198,218,255);
+    --dark:rgba(13,13,10,255);
+    --darker:rgba(234,157,90,255);
+    --lighter:#cbd6cf;
+    --lighter1:#c3dacc86;
+    --lighter2:#e4f0e9da;
+    --darken: #cca27e;
+    --color: orangered;
+    --search: #FF6000;
+    --primary1: #2b3d4c;
+    --primary2: #354d61;
+}
+
+.logo{
+  max-width: 100%;
+  width: 40px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+p{
+  font-size: 14px;
+  margin: auto;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+ss{
+  margin-left: 30px;
+}
+
+h1{
+  font-weight: 500;
+  color: var(--search);
+  margin: 20px;
+  font-size: 40px;
+}
+
+h2{
+  font-weight: 400;
+  color: var(--primary1);
+  font-size: 32px;
+  margin: 20px;
+
+}
+
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background-color: var(--primary1);
+  color: white;
+  
+}
+
+.button-link{
+  padding: 12px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--primary);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  margin-left: 25px;
+
+}
+
+.button-link:hover{
+  background: transparent;
+  color: wheat;
+  border: 1px solid var(--primary);
+}
+
+.active{
+  font-weight: 600;
+  color: rgb(34, 196, 228);
+  text-decoration: underline;
+}
+
+.inactive{
+  font-weight: 400;
+  color: var(--primary1);
+  text-decoration: none;
+}
+
+/* Header starts here */
+
+.header-top-strip a{
+  color: var(--primary1);
+}
+.input-group button{
+ background-color: transparent;
+ font-size: 14px; 
+}
+
+.input-group-text:hover {
+  color: var(--search);
+}
+
+.nav-links a{
+  font-size: 16px;
+  text-transform: uppercase;
+  
+}
+
+.nav-links-nav a{
+  color: var(--search);
+}
+
+
+
+/* Header ends here */
+
+/* Footer starts here */
+
+footer{
+  background-color: var(--lighter2);
+}
+
+.text-black {
+  color: black;
+}
+
+.pay img{
+  transition: 0.5s ease;
+  
+}
+
+.pay img:hover{
+  transform: translateY(-8px);
+}
+
+.footer-details a{
+  color: var(--primary1);
+}
+.social-icons a:hover{
+  color: var(--search);
+}
+
+
+/* Footer ends here */
+
+
+/* Home begins */
+
+.banner-details{
+  background: url(./assets/images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.hero-details img{
+  width: 100%;
+  height: 80px;
+}
+
+.hero-details .card{
+  border-radius: 10px;
+}
+
+.featured-products .card img{
+  border-radius: 20px;
+}
+
+.featured-products .card{
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.featured-products .card span{
+  color: var(--darken);
+}
+
+.repair{
+  background: url(./assets/images/banner/b2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.button-repair{
+  padding: 12px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--darken);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  margin-left: 25px;
+}
+
+.button-repair:hover{
+  background: transparent;
+  color: wheat;
+  border: 1px solid var(--darken);
+}
+
+.new-products .card img{
+  border-radius: 20px;
+  width: 100%;
+  max-height: 200px;
+}
+
+.new-products .card{
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.new-products .card span{
+  color: var(--darken);
+}
+
+.button-deals{
+  padding: 10px 8px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--darken);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  
+}
+
+.button-deals:hover{
+  background: transparent;
+  color: var(--darken);
+  border: 1px solid var(--darken);
+}
+
+
+/* Home ends */
+
+
+/* Login form start */
+
+.banner-details {
+  background: url(./assets/images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.hero-details img {
+  width: 100%;
+  height: 80px;
+}
+
+.hero-details .card {
+  border-radius: 10px;
+}
+
+.featured-products .card img {
+  border-radius: 20px;
+}
+
+.featured-products .card {
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.featured-products .card span {
+  color: var(--darken);
+}
+
+.repair {
+  background: url(./assets/images/banner/b2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.button-repair {
+  padding: 12px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--darken);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  margin-left: 25px;
+}
+
+.button-repair:hover {
+  background: transparent;
+  color: wheat;
+  border: 1px solid var(--darken);
+}
+
+.new-products .card img {
+  border-radius: 20px;
+  width: 100%;
+  max-height: 200px;
+}
+
+.new-products .card {
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.new-products .card span {
+  color: var(--darken);
+}
+
+.button-deals {
+  padding: 10px 8px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--darken);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+
+.button-deals:hover {
+  background: transparent;
+  color: var(--darken);
+  border: 1px solid var(--darken);
+}
+
+/* Home ends */
+
+/* Login form start */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #666;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  font-weight: bold;
+}
+
+.login-link {
+  text-align: center;
+}
+
+.login-link a {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.customer-button,
+.seller-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.customer-button.active,
+.seller-button.active {
+  background-color: #0069d9;
+}
+
+
+
+/* Login form end */
